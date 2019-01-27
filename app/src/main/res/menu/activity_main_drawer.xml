@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/favs"
+            android:icon="@drawable/favourites_tab_icon"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/playlists"
+            android:icon="@drawable/playlist_tab_icon"
+            android:title="Playlists" />
+        <item
+            android:id="@+id/equalizer"
+            android:icon="@drawable/equalizer_icon"
+            android:title="Equalizer" />
+        <item
+            android:id="@+id/moodSelector"
+            android:icon="@drawable/emotion_icon"
+            android:title="Mood Selector" />
+
+        <item
+            android:id="@+id/moodSetter"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mood Setter" />
+    </group>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/login_icon"
+                android:title="Login" />
+            <item
+                android:id="@+id/signup"
+                android:icon="@drawable/signup_icon"
+                android:title="Sign up" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings_icon"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/artist_img"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

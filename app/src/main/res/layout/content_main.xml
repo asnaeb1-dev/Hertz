@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.gauravk.audiovisualizer.visualizer.BarVisualizer
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/barVisualizer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        custom:avColor="@android:color/holo_red_dark"
+        custom:avDensity="1"
+        custom:avSpeed="normal"
+        custom:avType="outline"
+        custom:avWidth="0.8dp"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent" />
+
+</android.widget.LinearLayout>

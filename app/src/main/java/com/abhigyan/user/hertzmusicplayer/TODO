@@ -1,0 +1,16 @@
+
+TODO: 1) implement music service 2) implement seamless audio playback over the entire device 3) implement the mood engine
+TODO: 4) implement awesome UI & UX 5) implement playlists: i) recently played ii) create playlists at will
+TODO 5) implement wake lock, audio focus, headset/headphone controls
+
+ MOOD PRESETS:
+ 1- depressed
+ 2- sad
+ 3- aimless
+ 4- well
+ 5- okay
+ 6- not bad
+ 7- good
+ 8- great
+ 9- awesome
+ 10- ecstatic

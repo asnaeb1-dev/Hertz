@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Hertz</string>
+    <string name="unknown">Unknown</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="album_unknown">Album- Unknown</string>
+    <string name="mood_select_title">Mood Engine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="title_activity_navigation_music">NavigationMusicActivity</string>
+    <string name="default_timer_text">00:00</string>
+    <string name="dismiss_button_text">Dismiss</string>
+    <string name="search">search</string>
+    <string name="save">Save</string>
+    <string name="select_your_mood">Select your mood</string>
+    <string name="play_by_mood">play by mood</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
